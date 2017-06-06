@@ -1,0 +1,461 @@
+2016-05-16 10:53:17 [127.0.0.1][-][mpl5pnmp9ooadquto8uptf4nq0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "system/index".' in D:\work\wms\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('system/index', Array)
+#1 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\work\wms\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-16 10:53:16 [127.0.0.1][-][mpl5pnmp9ooadquto8uptf4nq0][info][application] $_GET = [
+    'r' => 'system/index'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php54n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2004'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=system%2Findex'
+    'QUERY_STRING' => 'r=system%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54865'
+    'SCRIPT_FILENAME' => 'D:/work/wms/dev/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'dev.wms.cn'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/0.9.8zb mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_HOST' => 'dev.wms.cn:8080'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1463367196.9726
+    'REQUEST_TIME' => 1463367196
+]
+2016-05-16 14:44:49 [127.0.0.1][-][mpl5pnmp9ooadquto8uptf4nq0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "role%2Manage".' in D:\work\wms\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('role%2Manage', Array)
+#1 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\work\wms\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-16 14:44:49 [127.0.0.1][-][mpl5pnmp9ooadquto8uptf4nq0][info][application] $_GET = [
+    'r' => 'role%2Manage'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'mpl5pnmp9ooadquto8uptf4nq0'
+    '_csrf' => '4307f32667b460620673cd39481748009ac0ef0c1ec2d22c5dade17635625c4ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ukn918vbl4zCeeUDpC2zGK3I-kH234Hb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php54n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2096'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=role%2Manage&id=1'
+    'QUERY_STRING' => 'r=role%2Manage&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51063'
+    'SCRIPT_FILENAME' => 'D:/work/wms/dev/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'dev.wms.cn'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/0.9.8zb mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=mpl5pnmp9ooadquto8uptf4nq0; _csrf=4307f32667b460620673cd39481748009ac0ef0c1ec2d22c5dade17635625c4ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ukn918vbl4zCeeUDpC2zGK3I-kH234Hb%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_HOST' => 'dev.wms.cn:8080'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1463381089.8264
+    'REQUEST_TIME' => 1463381089
+]
+2016-05-16 14:44:52 [127.0.0.1][-][mpl5pnmp9ooadquto8uptf4nq0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "role%index".' in D:\work\wms\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('role%index', Array)
+#1 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\work\wms\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-16 14:44:52 [127.0.0.1][-][mpl5pnmp9ooadquto8uptf4nq0][info][application] $_GET = [
+    'r' => 'role%index'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'mpl5pnmp9ooadquto8uptf4nq0'
+    '_csrf' => '4307f32667b460620673cd39481748009ac0ef0c1ec2d22c5dade17635625c4ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ukn918vbl4zCeeUDpC2zGK3I-kH234Hb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php54n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2096'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=role%index&id=1'
+    'QUERY_STRING' => 'r=role%index&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51063'
+    'SCRIPT_FILENAME' => 'D:/work/wms/dev/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'dev.wms.cn'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/0.9.8zb mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=mpl5pnmp9ooadquto8uptf4nq0; _csrf=4307f32667b460620673cd39481748009ac0ef0c1ec2d22c5dade17635625c4ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ukn918vbl4zCeeUDpC2zGK3I-kH234Hb%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_HOST' => 'dev.wms.cn:8080'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1463381092.6925
+    'REQUEST_TIME' => 1463381092
+]
+2016-05-16 14:45:07 [127.0.0.1][-][mpl5pnmp9ooadquto8uptf4nq0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "role%index".' in D:\work\wms\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('role%index', Array)
+#1 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\work\wms\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-16 14:45:07 [127.0.0.1][-][mpl5pnmp9ooadquto8uptf4nq0][info][application] $_GET = [
+    'r' => 'role%index'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'mpl5pnmp9ooadquto8uptf4nq0'
+    '_csrf' => '4307f32667b460620673cd39481748009ac0ef0c1ec2d22c5dade17635625c4ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Ukn918vbl4zCeeUDpC2zGK3I-kH234Hb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php54n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2096'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=role%index&id=1'
+    'QUERY_STRING' => 'r=role%index&id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '51066'
+    'SCRIPT_FILENAME' => 'D:/work/wms/dev/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'dev.wms.cn'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/0.9.8zb mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=mpl5pnmp9ooadquto8uptf4nq0; _csrf=4307f32667b460620673cd39481748009ac0ef0c1ec2d22c5dade17635625c4ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ukn918vbl4zCeeUDpC2zGK3I-kH234Hb%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_HOST' => 'dev.wms.cn:8080'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1463381107.1955
+    'REQUEST_TIME' => 1463381107
+]
+2016-05-23 22:55:52 [127.0.0.1][-][1pqjn92shenrhaavapk28uccp0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "wplanning/index".' in D:\work\wms\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('wplanning/index', Array)
+#1 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\work\wms\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-23 22:55:52 [127.0.0.1][-][1pqjn92shenrhaavapk28uccp0][info][application] $_GET = [
+    'r' => 'wplanning/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1pqjn92shenrhaavapk28uccp0'
+    '_csrf' => 'd3ba0ecae8b29af0b3bb214d11dc6ad51ab54e9bc8195664c7f4a8907752d20ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wzd2st0XE_cRzH2iI-KuR9y7Z_pl-nqx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2088'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=wplanning%2Findex'
+    'QUERY_STRING' => 'r=wplanning%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52019'
+    'SCRIPT_FILENAME' => 'D:/work/wms/dev/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'dev.wms.cn'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1pqjn92shenrhaavapk28uccp0; _csrf=d3ba0ecae8b29af0b3bb214d11dc6ad51ab54e9bc8195664c7f4a8907752d20ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wzd2st0XE_cRzH2iI-KuR9y7Z_pl-nqx%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_HOST' => 'dev.wms.cn:8080'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464015352.0545
+    'REQUEST_TIME' => 1464015352
+]
+2016-05-24 01:38:31 [127.0.0.1][-][1pqjn92shenrhaavapk28uccp0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "auth/index".' in D:\work\wms\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('auth/index', Array)
+#1 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\work\wms\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-05-24 01:38:31 [127.0.0.1][-][1pqjn92shenrhaavapk28uccp0][info][application] $_GET = [
+    'r' => 'auth/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1pqjn92shenrhaavapk28uccp0'
+    '_csrf' => 'd3ba0ecae8b29af0b3bb214d11dc6ad51ab54e9bc8195664c7f4a8907752d20ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wzd2st0XE_cRzH2iI-KuR9y7Z_pl-nqx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2252'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=auth%2Findex'
+    'QUERY_STRING' => 'r=auth%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54524'
+    'SCRIPT_FILENAME' => 'D:/work/wms/dev/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'dev.wms.cn'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1pqjn92shenrhaavapk28uccp0; _csrf=d3ba0ecae8b29af0b3bb214d11dc6ad51ab54e9bc8195664c7f4a8907752d20ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wzd2st0XE_cRzH2iI-KuR9y7Z_pl-nqx%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_HOST' => 'dev.wms.cn:8080'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464025111.4954
+    'REQUEST_TIME' => 1464025111
+]
+2016-06-01 18:41:05 [127.0.0.1][-][dlagj4pnj64ocqf6q6sbu98v50][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: role/mange' in D:\work\wms\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('mange', Array)
+#1 D:\work\wms\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('role/mange', Array)
+#2 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in D:\work\wms\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\work\wms\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\work\wms\dev\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-06-01 18:41:05 [127.0.0.1][-][dlagj4pnj64ocqf6q6sbu98v50][info][application] $_GET = [
+    'r' => 'role/mange'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'dlagj4pnj64ocqf6q6sbu98v50'
+    '_csrf' => '933117e062cd08a0ddc8db38654169a6f63c7c7b5246cbf859bcf03804b3587aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GAB1vZLabML-mKhkayJG3YnjsViDu4zN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2096'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?r=role/mange'
+    'QUERY_STRING' => 'r=role/mange'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50166'
+    'SCRIPT_FILENAME' => 'D:/work/wms/dev/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/work/wms/dev/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'dev.wms.cn'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=dlagj4pnj64ocqf6q6sbu98v50; _csrf=933117e062cd08a0ddc8db38654169a6f63c7c7b5246cbf859bcf03804b3587aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GAB1vZLabML-mKhkayJG3YnjsViDu4zN%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
+    'HTTP_HOST' => 'dev.wms.cn:8080'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1464777665.7231
+    'REQUEST_TIME' => 1464777665
+]

@@ -1,0 +1,1 @@
+ALTER TABLE `Department` CHANGE `parent_id` `parent_id` INT( 11 ) NOT NULL DEFAULT '0' COMMENT '上级部门ID'
